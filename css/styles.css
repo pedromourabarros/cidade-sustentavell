@@ -1,0 +1,69 @@
+:root {
+    --color-primary: #019614;
+    --color-secondary: #003002;
+    --color-bg: #F4F5F9;
+    --font-body: 'Heebo', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+}
+
+/* Menu */
+.navbar {
+    background-color: var(--color-primary);
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.nav-link:hover,
+.logo-menu:hover {
+    color: var(--color-secondary) !important;
+}
+
+/* Imagem Principal */
+.container-custom {
+    max-width: 67.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Vantagens */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.text-success {
+    color: var(--color-primary);
+}
+
+/* Botões */
+.btn-outline-primary {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--color-primary);
+    color: white;
+}
